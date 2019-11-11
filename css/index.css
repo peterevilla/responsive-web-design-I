@@ -249,3 +249,103 @@ li {
 }
 
 
+
+
+@media(max-width: 500px) {
+
+    body {
+
+        width: 100%;
+        margin: auto;
+        padding: 50px;
+        
+    }
+    
+    .nav_bar a {
+
+        border-bottom: 1px solid gray;
+        width: 70%;
+        text-align: center;
+        margin-left: 13%;
+        padding: 2%;
+       
+     }
+
+    .nav_bar {
+
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+        
+    
+    .title p {
+        font-size: 40px;
+        margin: 2%;
+        font-family: 'Bangers', cursive;
+        text-align: center;
+        padding: 3%;
+        
+        
+    }
+
+    .title img {
+
+        display: none;
+    }
+    
+    .title {
+    
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+    .section1 {
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid black;
+        margin-top: 1px;
+    }
+    
+    .section1 p, .section2 p {
+        padding: 2%;
+        margin: 2%;
+        text-align: justify;
+    }
+
+    .section2 {
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid black;
+        margin-top: 1px;
+    }
+
+    .middle-img {
+
+        max-width: 380px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    address {
+        margin: 3%;
+        line-height: 25px;
+    }
+
+
+    #get {
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 1px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        justify-items: center;
+    }
+
+    }
